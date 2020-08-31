@@ -10,7 +10,7 @@ def find_min_in_nested_arrays(src)
     
     inner_results = []
     element_index = 0
-    smallest_integer = 70
+    smallest_integer = 100
     
     while element_index < src[row_index].count do
       
@@ -26,5 +26,7 @@ def find_min_in_nested_arrays(src)
     row_index += 1
     
   end
+  
   outer_results
+  
 end
